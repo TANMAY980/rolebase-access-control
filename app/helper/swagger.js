@@ -14,7 +14,8 @@ const options={
             },
         },
         servers:[
-            {url:'http://localhost:7000',description:'Development server',},
+            // {url:'http://localhost:7000',description:'Development server',},
+            {url:'https://rolebase-access-control-4a2a.onrender.com/api-docs/#/',description:'Production server'}
         ],
         components: {
             securitySchemes: {
